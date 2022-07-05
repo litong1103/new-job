@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git 'https://github.com/litong1103/new-job.git'
+        git(url: 'https://github.com/litong1103/new-job.git', branch: 'pipe3')
       }
     }
 
